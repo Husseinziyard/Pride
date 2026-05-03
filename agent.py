@@ -14,7 +14,7 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Change model if needed (see https://openrouter.ai/models)
-MODEL_NAME = "google/gemini-2.0-flash-exp:free"
+MODEL_NAME = "google/gemini-2.5-flash-preview:free"
 
 
 # ── System Prompt ──
