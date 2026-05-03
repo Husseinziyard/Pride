@@ -14,7 +14,7 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Change model if needed (see https://openrouter.ai/models)
-MODEL_NAME = "nousresearch/hermes-3-llama-3.1-405b:free"
+MODEL_NAME = "openai/gpt-4o-transcribe"
 
 
 # ── System Prompt ──
