@@ -14,7 +14,7 @@ load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 # Change model if needed (see https://openrouter.ai/models)
-MODEL_NAME = "google/gemini-2.5-flash-preview:free"
+MODEL_NAME = "meta-llama/llama-4-maverick:free"
 
 
 # ── System Prompt ──
