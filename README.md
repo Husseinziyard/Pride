@@ -1,4 +1,4 @@
-# ⚡ DS Copilot — AI-Powered Data Science Assistant
+# ⚡ Pride — AI-Powered Data Science Assistant
 
 An autonomous AI agent that assists with the complete data science pipeline through natural conversation. Upload a dataset and chat — it explores, cleans, visualizes, and models your data.
 
@@ -9,7 +9,7 @@ An autonomous AI agent that assists with the complete data science pipeline thro
 
 ## 🎯 What It Does
 
-DS Copilot is a **ReAct (Reasoning + Acting) AI agent** that autonomously performs data science tasks. It reasons about what to do, selects the right tool, executes it, observes results, and iterates — all through a conversational interface.
+Pride is a **ReAct (Reasoning + Acting) AI agent** that autonomously performs data science tasks. It reasons about what to do, selects the right tool, executes it, observes results, and iterates — all through a conversational interface.
 
 ### Core Capabilities
 
@@ -49,7 +49,7 @@ User (Streamlit Chat UI)
 ### 1. Clone & install
 ```bash
 git clone https://github.com/YOUR_USERNAME/ds-copilot.git
-cd ds-copilot
+cd pride
 python -m venv venv
 source venv/bin/activate        # Mac/Linux
 # venv\Scripts\activate         # Windows
@@ -75,7 +75,7 @@ That's it. No API keys to paste every session — it loads from `.env` automatic
 ## 📁 Project Structure
 
 ```
-ds-copilot/
+pride/
 ├── app.py              # Streamlit UI — professional chat interface
 ├── agent.py            # LangGraph ReAct agent with OpenRouter LLM
 ├── tools.py            # 6 data science tools (EDA, cleaning, viz, ML, code exec)
@@ -97,10 +97,10 @@ ds-copilot/
 
 Edit `.env` to use any model on OpenRouter:
 ```bash
-DS_COPILOT_MODEL=anthropic/claude-sonnet-4    # Claude
-DS_COPILOT_MODEL=openai/gpt-4o                # GPT-4o
-DS_COPILOT_MODEL=meta-llama/llama-4-scout     # LLaMA 4
-DS_COPILOT_MODEL=google/gemini-2.0-flash-001  # Gemini (default)
+PRIDE_MODEL=anthropic/claude-sonnet-4    # Claude
+PRIDE_MODEL=openai/gpt-4o                # GPT-4o
+PRIDE_MODEL=meta-llama/llama-4-scout     # LLaMA 4
+PRIDE_MODEL=google/gemini-2.0-flash-001  # Gemini (default)
 ```
 
 ## 💡 Example Interactions
@@ -121,12 +121,6 @@ You: "Build a model to predict Survived"
 You: "Write code to create a BMI feature from Height and Weight"
 → Agent calls execute_python_code() with custom pandas code
 ```
-
-## 📋 Assignment Details
-
-- **Course:** Data Science Applications and AI (LB3114)
-- **Institution:** General Sir John Kotelawala Defence University
-- **Year:** 3rd Year, 1st Semester — Intake 41
 
 ## 📄 License
 
