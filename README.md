@@ -2,10 +2,6 @@
 
 An autonomous AI agent that assists with the complete data science pipeline through natural conversation. Upload a dataset and chat — it explores, cleans, visualizes, and models your data.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.38+-red?style=flat-square&logo=streamlit)
-![LangGraph](https://img.shields.io/badge/LangGraph-ReAct_Agent-green?style=flat-square)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-Multi_Model-orange?style=flat-square)
 
 ## 🎯 What It Does
 
